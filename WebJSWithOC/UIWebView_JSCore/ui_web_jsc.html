@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <style>
+            
+            .o_frame {
+                border:5px solid #34f01a;
+                width:80%;
+                margin-left:auto;
+                margin-right:auto;
+                padding:20px;
+            }
+        
+        #i_text {
+            color:#333333;
+            border:1px solid #666666;
+            width:100%;
+            height:30px;
+        }
+        
+        #b_test {
+            border:1px solid #666666;
+            background:#234995;
+            color:#ffffff;
+            width:100%;
+            height:30px;
+            margin-top:10px;
+        }
+        #p_log_js {
+            margin:0px;
+        }
+        
+            </style>
+        <script>
+            
+            function button_click(){
+                var input = document.getElementById('i_text');
+                js_transfer_to_oc(input.value);
+            }
+        
+        function oc_transferValue_to_js(v) {
+            document.getElementById('p_log_oc').innerHTML = '从OC中传递过来的数据是：<br>' + v
+            return 'byebye'
+        }
+        
+            </script>
+    </head>
+    <body>
+        <div class="o_frame">
+            <input type="text" id="i_text" />
+            <br />
+            <button id="b_test" onclick="button_click()">点击测试</button>
+        </div>
+        <br />
+        <div class="o_frame">
+            <p>从OC中传递过来的内容</p> 
+            <p id="p_log_oc"></p> 
+        </div>  
+    </body>
+</html>

@@ -13,6 +13,17 @@
 		1C317CE81DFAF18D00CC272B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C317CE61DFAF18D00CC272B /* Main.storyboard */; };
 		1C317CEA1DFAF18D00CC272B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C317CE91DFAF18D00CC272B /* Assets.xcassets */; };
 		1C317CED1DFAF18D00CC272B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C317CEB1DFAF18D00CC272B /* LaunchScreen.storyboard */; };
+		1C317CFC1DFAF2FF00CC272B /* AUUBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C317CFB1DFAF2FF00CC272B /* AUUBaseViewController.m */; };
+		1C317CFF1DFAF34300CC272B /* AUUOriginalUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C317CFE1DFAF34300CC272B /* AUUOriginalUIWebViewController.m */; };
+		1C317D011DFAF37A00CC272B /* ui_web_original.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C317D001DFAF37A00CC272B /* ui_web_original.html */; };
+		1C317D041DFAF7C500CC272B /* AUUFuncTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C317D031DFAF7C500CC272B /* AUUFuncTableViewCell.m */; };
+		1C317D071DFAFBB200CC272B /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C317D061DFAFBB200CC272B /* JavaScriptCore.framework */; };
+		1C317D091DFAFBBB00CC272B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C317D081DFAFBBB00CC272B /* WebKit.framework */; };
+		1C317D0B1DFB06BD00CC272B /* web_temp.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C317D0A1DFB06BD00CC272B /* web_temp.html */; };
+		1C317D0E1DFB940400CC272B /* AUUJSCUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C317D0D1DFB940400CC272B /* AUUJSCUIWebViewController.m */; };
+		1C317D101DFB942400CC272B /* ui_web_jsc.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C317D0F1DFB942400CC272B /* ui_web_jsc.html */; };
+		1C317D131DFBAC4E00CC272B /* AUUOriginalWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C317D121DFBAC4E00CC272B /* AUUOriginalWKWebViewController.m */; };
+		1C317D151DFBAD0600CC272B /* wk_web_original.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C317D141DFBAD0600CC272B /* wk_web_original.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,22 @@
 		1C317CE91DFAF18D00CC272B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C317CEC1DFAF18D00CC272B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C317CEE1DFAF18D00CC272B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C317CFA1DFAF2FF00CC272B /* AUUBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUUBaseViewController.h; sourceTree = "<group>"; };
+		1C317CFB1DFAF2FF00CC272B /* AUUBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUUBaseViewController.m; sourceTree = "<group>"; };
+		1C317CFD1DFAF34300CC272B /* AUUOriginalUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUUOriginalUIWebViewController.h; sourceTree = "<group>"; };
+		1C317CFE1DFAF34300CC272B /* AUUOriginalUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUUOriginalUIWebViewController.m; sourceTree = "<group>"; };
+		1C317D001DFAF37A00CC272B /* ui_web_original.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ui_web_original.html; sourceTree = "<group>"; };
+		1C317D021DFAF7C500CC272B /* AUUFuncTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUUFuncTableViewCell.h; sourceTree = "<group>"; };
+		1C317D031DFAF7C500CC272B /* AUUFuncTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUUFuncTableViewCell.m; sourceTree = "<group>"; };
+		1C317D061DFAFBB200CC272B /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1C317D081DFAFBBB00CC272B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1C317D0A1DFB06BD00CC272B /* web_temp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = web_temp.html; sourceTree = "<group>"; };
+		1C317D0C1DFB940400CC272B /* AUUJSCUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUUJSCUIWebViewController.h; sourceTree = "<group>"; };
+		1C317D0D1DFB940400CC272B /* AUUJSCUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUUJSCUIWebViewController.m; sourceTree = "<group>"; };
+		1C317D0F1DFB942400CC272B /* ui_web_jsc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ui_web_jsc.html; sourceTree = "<group>"; };
+		1C317D111DFBAC4E00CC272B /* AUUOriginalWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUUOriginalWKWebViewController.h; sourceTree = "<group>"; };
+		1C317D121DFBAC4E00CC272B /* AUUOriginalWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUUOriginalWKWebViewController.m; sourceTree = "<group>"; };
+		1C317D141DFBAD0600CC272B /* wk_web_original.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wk_web_original.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C317D091DFAFBBB00CC272B /* WebKit.framework in Frameworks */,
+				1C317D071DFAFBB200CC272B /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +73,7 @@
 			children = (
 				1C317CDC1DFAF18D00CC272B /* WebJSWithOC */,
 				1C317CDB1DFAF18D00CC272B /* Products */,
+				1C317D051DFAFBB200CC272B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +92,14 @@
 				1C317CE11DFAF18D00CC272B /* AppDelegate.m */,
 				1C317CE31DFAF18D00CC272B /* ViewController.h */,
 				1C317CE41DFAF18D00CC272B /* ViewController.m */,
+				1C317CFA1DFAF2FF00CC272B /* AUUBaseViewController.h */,
+				1C317CFB1DFAF2FF00CC272B /* AUUBaseViewController.m */,
+				1C317D021DFAF7C500CC272B /* AUUFuncTableViewCell.h */,
+				1C317D031DFAF7C500CC272B /* AUUFuncTableViewCell.m */,
+				1C317D0A1DFB06BD00CC272B /* web_temp.html */,
+				1C317CF71DFAF2C900CC272B /* UIWebView_JSCore */,
+				1C317CF81DFAF2C900CC272B /* UIWebView_Original */,
+				1C317CF91DFAF2C900CC272B /* WkWebView_Original */,
 				1C317CE61DFAF18D00CC272B /* Main.storyboard */,
 				1C317CE91DFAF18D00CC272B /* Assets.xcassets */,
 				1C317CEB1DFAF18D00CC272B /* LaunchScreen.storyboard */,
@@ -77,6 +115,45 @@
 				1C317CDE1DFAF18D00CC272B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C317CF71DFAF2C900CC272B /* UIWebView_JSCore */ = {
+			isa = PBXGroup;
+			children = (
+				1C317D0C1DFB940400CC272B /* AUUJSCUIWebViewController.h */,
+				1C317D0D1DFB940400CC272B /* AUUJSCUIWebViewController.m */,
+				1C317D0F1DFB942400CC272B /* ui_web_jsc.html */,
+			);
+			path = UIWebView_JSCore;
+			sourceTree = "<group>";
+		};
+		1C317CF81DFAF2C900CC272B /* UIWebView_Original */ = {
+			isa = PBXGroup;
+			children = (
+				1C317CFD1DFAF34300CC272B /* AUUOriginalUIWebViewController.h */,
+				1C317CFE1DFAF34300CC272B /* AUUOriginalUIWebViewController.m */,
+				1C317D001DFAF37A00CC272B /* ui_web_original.html */,
+			);
+			path = UIWebView_Original;
+			sourceTree = "<group>";
+		};
+		1C317CF91DFAF2C900CC272B /* WkWebView_Original */ = {
+			isa = PBXGroup;
+			children = (
+				1C317D111DFBAC4E00CC272B /* AUUOriginalWKWebViewController.h */,
+				1C317D121DFBAC4E00CC272B /* AUUOriginalWKWebViewController.m */,
+				1C317D141DFBAD0600CC272B /* wk_web_original.html */,
+			);
+			path = WkWebView_Original;
+			sourceTree = "<group>";
+		};
+		1C317D051DFAFBB200CC272B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C317D081DFAFBBB00CC272B /* WebKit.framework */,
+				1C317D061DFAFBB200CC272B /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +215,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C317D101DFB942400CC272B /* ui_web_jsc.html in Resources */,
+				1C317D0B1DFB06BD00CC272B /* web_temp.html in Resources */,
+				1C317D151DFBAD0600CC272B /* wk_web_original.html in Resources */,
 				1C317CED1DFAF18D00CC272B /* LaunchScreen.storyboard in Resources */,
 				1C317CEA1DFAF18D00CC272B /* Assets.xcassets in Resources */,
+				1C317D011DFAF37A00CC272B /* ui_web_original.html in Resources */,
 				1C317CE81DFAF18D00CC272B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,8 +233,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C317CE51DFAF18D00CC272B /* ViewController.m in Sources */,
+				1C317D041DFAF7C500CC272B /* AUUFuncTableViewCell.m in Sources */,
 				1C317CE21DFAF18D00CC272B /* AppDelegate.m in Sources */,
 				1C317CDF1DFAF18D00CC272B /* main.m in Sources */,
+				1C317D131DFBAC4E00CC272B /* AUUOriginalWKWebViewController.m in Sources */,
+				1C317CFC1DFAF2FF00CC272B /* AUUBaseViewController.m in Sources */,
+				1C317D0E1DFB940400CC272B /* AUUJSCUIWebViewController.m in Sources */,
+				1C317CFF1DFAF34300CC272B /* AUUOriginalUIWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
