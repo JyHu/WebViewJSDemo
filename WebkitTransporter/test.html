@@ -1,0 +1,55 @@
+
+<html>
+<head>
+<style>
+#b_test {
+    border:1px solid #666666;
+    background:#234995;
+    color:#ffffff;
+    width:100%;
+    height:30px;
+    margin-top:10px;
+}
+
+</style>
+<script>
+        
+    function button_click(){
+        var input = document.getElementById('i_text');
+        window
+        .webkit
+        .messageHandlers
+        .oc_method
+        .postMessage({body : "aaa",
+                     param: {a : "b", b : "c"}
+                     });
+    }
+    
+    function button_click1() {
+        window
+        .webkit
+        .messageHandlers
+        .oc_method
+        .postMessage(function (eachName, index){
+                     console.log(index + 1 + ". " + eachName); // 1. Mike, 2. Stacy, 3. Andy, 4. Rick
+                     });
+    }
+    
+    function button_click2() {
+        window.webkit.messageHandlers.oc_method.postMessage("bbb");
+    }
+    
+    function oc_transferValue_to_js(v) {
+        document.getElementById('p_log_oc').innerHTML = '从OC中传递过来的数据是：<br>' + v
+        return 'byebye'
+    }
+</script>
+</head>
+<body>
+    <button id="b_test" onclick="button_click()">点击测试</button>
+    <button id="b_test" onclick="button_click1()">点击测试1</button>
+    <button id="b_test" onclick="button_click1()">点击测试2</button>
+</body>
+</html>
+
+

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1C317CD91DFAF18D00CC272B"
-               BuildableName = "WebJSWithOC.app"
-               BlueprintName = "WebJSWithOC"
-               ReferencedContainer = "container:WebJSWithOC.xcodeproj">
+               BlueprintIdentifier = "30F7767283B7A1D81B7F651F51D14CEC"
+               BuildableName = "Masonry.framework"
+               BlueprintName = "Masonry"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C317CD91DFAF18D00CC272B"
-            BuildableName = "WebJSWithOC.app"
-            BlueprintName = "WebJSWithOC"
-            ReferencedContainer = "container:WebJSWithOC.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C317CD91DFAF18D00CC272B"
-            BuildableName = "WebJSWithOC.app"
-            BlueprintName = "WebJSWithOC"
-            ReferencedContainer = "container:WebJSWithOC.xcodeproj">
+            BlueprintIdentifier = "30F7767283B7A1D81B7F651F51D14CEC"
+            BuildableName = "Masonry.framework"
+            BlueprintName = "Masonry"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C317CD91DFAF18D00CC272B"
-            BuildableName = "WebJSWithOC.app"
-            BlueprintName = "WebJSWithOC"
-            ReferencedContainer = "container:WebJSWithOC.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
